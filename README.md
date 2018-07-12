@@ -1,7 +1,7 @@
 # GitHub Crash Course
-Welcome to the idiot-proof guide to using the command line with GitHub. This guide is meant for MacOS/Unix users and a basic familiarity with Terminal commands is recommended. When starting out with GitHub I mainly used the GUI app that GitHub provides for uploading file to a repository. However, knowing how to use the command line tools is a major upside as it is so much faster, and helps you understand the grass-roots mechanism that GitHub runs on.
+Welcome to the idiot-proof guide to using the command line with GitHub. This guide is meant for MacOS/Unix users and a basic familiarity with Terminal commands like `mkdir` and `cd` is recommended. When starting out with GitHub I mainly used the GUI app that GitHub provides for uploading file to a repository. However, knowing how to use the command line tools is a major upside as it is so much faster, and helps you understand the grass-roots mechanism that GitHub runs on.
 
-This mechanism is called `Git` and here is why it is useful. TODO add link.
+This mechanism is called `Git` and [here is why it is so useful.](http://blog.robertelder.org/what-is-git/)
 
 Without further ado, let's get to how you can upload your code to GitHub using the command line. Let's go.
 
@@ -13,11 +13,14 @@ Log into Github.com using your GitHub username and password. Create a repository
 
 Once your repository is ready, you need to use the `clone` command to create a copy of it to your machine in order to make changes.
 
+###### Optional Step
 At this point, you can optionally create a directory to store all your future GitHub repos in one place on your machine. To do this optional step type the following into Terminal:
 
 `mkdir GitHub; cd GitHub`
 
-Let's clone the repository to your machine now. Type the following into Terminal:
+In order to clone the repository to your machine, you'll need to install something called `git`, a command line tool that GitHub integrates with. In order to install git on your system, [follow this super-easy guide](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
+
+Once git is ready we can proceed with this guide. Let's get cloning. Type the following into Terminal:
 
 `git clone <Your repo's .git URL>`
 
