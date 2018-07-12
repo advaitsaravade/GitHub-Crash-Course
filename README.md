@@ -37,11 +37,15 @@ Once you are ready to send your code to GitHub, navigate to the directory where 
 
 This command will provide a list of files, usually red in color. `git status` shows you which files are yet to be sent to a commit. If it is red, that means this file is not part of a commit. You want to upload to GitHub don't you? Just add them to a commit first using the following:
 
-`git commit --all`
+`git add --all`
 
-This command prepares all the files in the directory with changes to be sent to GitHub. Read more about commits here TODO. Now idealy, this should go across without problems but if it outputs an error with the title "Tell me who you are?" or similar, just type in the `.username` and `.email` commands it mentions with appropriate values (this doesn't need to be the same as your GitHub credentials as it is only for your local machine). Once this is done, run `git commit --all` once again and you're ready to upload to GitHub.
+This command prepares all the files in the directory with changes to be sent to GitHub. Now idealy, this should go across without problems but if it outputs an error with the title "Tell me who you are?" or similar, just type in the `.username` and `.email` commands it mentions with appropriate values (this doesn't need to be the same as your GitHub credentials as it is only for your local machine). Once this is done, run `git add --all` once again and you're ready to upload to GitHub.
 
 ## Step 5: Upload to GitHub
+
+Commit your files to be sent. Type in the following:
+
+`git commit -m "A brief description of your changes for everyone to see on GitHub.com"`
 
 Once your commit is ready, check the status of your files to make sure. Type the following once again:
 
