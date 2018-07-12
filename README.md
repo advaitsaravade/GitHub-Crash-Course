@@ -1,4 +1,4 @@
-# GitHub Crash Course
+# Using GitHub with Git Crash Course
 Welcome to the idiot-proof guide to using the command line with GitHub. This guide is meant for MacOS/Unix users and a basic familiarity with Terminal commands like `mkdir` and `cd` is recommended. When starting out with GitHub I mainly used the GUI app that GitHub provides for uploading file to a repository. However, knowing how to use the command line tools is a major upside as it is so much faster, and helps you understand the grass-roots mechanism that GitHub runs on.
 
 This mechanism is called `Git` and [here is why it is so useful.](http://blog.robertelder.org/what-is-git/)
